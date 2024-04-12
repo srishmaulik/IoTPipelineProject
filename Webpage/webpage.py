@@ -7,11 +7,12 @@ import uuid
 import os
 import subprocess
 
-ASTRA_DB_ID = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"  
-ASTRA_DB_REGION = "us-east1"
-ASTRA_DB_APPLICATION_TOKEN = "AstraCS:XXXXXXXXXXX"
-ASTRA_DB_KEYSPACE = "iotdatabase"
-COLLECTION_NAME = "sensortaginfo"
+ASTRA_DB_ID = "bb4ffbd3-30a3-46f6-9c51-c59c943aa425"  
+ASTRA_DB_REGION = "us-east-1"
+ASTRA_DB_APPLICATION_TOKEN = "AstraCS:nKXLJoKycTFzdLIyXDJzjWrx:e60b0ca440d563f3b7352304a3bc92c8fe6dcc73d66d52ea13fbb3a514c26172"
+ASTRA_DB_KEYSPACE = "keyspace_name"
+COLLECTION_NAME = "new_table"
+
 
 app = Flask(__name__)
 
