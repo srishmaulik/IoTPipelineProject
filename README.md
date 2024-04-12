@@ -19,8 +19,7 @@ CREATE TABLE keyspace_name.new_table (
 #### To Manually Add Data:
 
 ```
-INSERT INTO iotdatabase.sensortaginfo (system_id, model_number, timestamp, ambient_temperature, battery_level, humidity, light, pressure)
-VALUES (1000, 'Manual Input', "01/22/2024 11:14:15", 20.0, 95, 20.1, 20.2, 20.3);
+INSERT INTO iotdatabase.sensortaginfo (system_id, model_number, timestamp, ambient_temperature, battery_level, humidity, light, pressure) VALUES (1000, 'Manual Input', '01/22/2024 11:14:15', 20.0, 95, 20.1, 20.2, 20.3);
 ```
 
 #### To Delete Table Data:
